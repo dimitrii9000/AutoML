@@ -79,7 +79,7 @@ class AutoML:
         """
         Обучить одну модель
         :param zip_model: zip, состоящий из (имя модели, сама модель)
-        :return: zip(Модель, Метрики модели)
+        :return: zip(Название модели, Модель, Метрики модели)
         """
         name, clf = zip_model
         try:
